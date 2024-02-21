@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "ai-anti-cheat-api"
+version = "0.1.0"
+description = "AI AC for determining if someone is using unfair advantage software/programs in a game."
+authors = ["Your Name <34923485+Haste171@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.109.2"
+openai = "1.1.1"
+python-dotenv = "1.0.1"
+requests = "2.31.0"
+instructor = "0.4.8"
+uvicorn = "^0.27.1"
+python-multipart = "^0.0.9"
+logger = "^1.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
